@@ -23,7 +23,7 @@
 git clone https://github.com/moqihzh/openssh-repair.git
 
 # 2. 安装
-cd openssh-repair
+cd openssh-repair/rpm/V_10_2_P1
 sudo rpm -Uvh openssh-*.rpm
 
 # 3. 重启 SSH 服务
@@ -37,7 +37,10 @@ ssh -V
 
 ```bash
 # 1. 下载所有 RPM 包到当前目录
-# 2. 使用 yum 本地安装（自动处理依赖）
+git clone https://github.com/moqihzh/openssh-repair.git
+cd openssh-repair/rpm/V_10_2_P1
+
+# 2. 使用 yum 本地安装
 sudo yum localinstall openssh-*.rpm -y
 
 # 3. 重启服务并验证
