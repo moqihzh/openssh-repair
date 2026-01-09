@@ -4,9 +4,9 @@
 
 本仓库提供预编译的 OpenSSH 漏洞修复包，用于快速修复 OpenSSH 相关安全漏洞。
 
-## 📦 包含内容
+## 📦 支持的操作系统
 
-### RPM 包（适用于 RHEL/CentOS/AlmaLinux/Rocky Linux）
+### RPM 包（适用于 RHEL/CentOS/AlmaLinux/Rocky Linux/Kylin Linux Advanced Server V10）
 
 ### DEB 包（适用于 Debian/Ubuntu）
 
